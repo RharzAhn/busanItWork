@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Chronometer
+        android:layout_width="match_parent"
+        android:id="@+id/chronometer"
+        android:format="예약에 걸린 시간 %s"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"></Chronometer>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예약 시작" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioCalendar"
+            android:text="날짜 설정(캘린더뷰)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioTime"
+            android:text="시간설정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CalendarView
+                android:id="@+id/calenderView"
+                android:showWeekNumber="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></CalendarView>
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TimePicker>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약완료"></Button>
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약 날짜 및 시간표시"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
