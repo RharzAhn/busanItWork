@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "app9"
 include ':app'
+include ':lap10'

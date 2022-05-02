@@ -4,6 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test1.xml" value="0.33" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test2.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test3.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test4.xml" value="0.2994791666666667" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test5.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test6.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/activity_test7.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/fragment_test1.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/fragment_test2.xml" value="0.28229166666666666" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/fragment_test3.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/item.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/item_pager.xml" value="0.296875" />
+        <entry key="..\:/android_work/app9/app/src/main/res/layout/movie_item.xml" value="0.25" />
+        <entry key="..\:/android_work/app9/lap10/src/main/res/layout/activity_test1.xml" value="0.1" />
       </map>
     </option>
   </component>
