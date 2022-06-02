@@ -1,0 +1,19 @@
+.rounded {
+    height: 300px;
+    
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+.fakeimg2 {
+    height: 200px;
+    background-color: #aaa;
+}
+
+.fakeimg3 {
+    height: 200px;
+    background-color: #aaa;
+}
